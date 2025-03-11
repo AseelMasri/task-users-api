@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url(./base.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+
+--mainColor: #007BFF;
+--mainFont:"Lato", serif;
+--secontFont:"Josefin Sans", serif; 
+--secondaryColor: #0056b3; 
+--backgroundColor: #F4F4F4; 
+--textColor: #333; 
+--accentColor: #00A8FF;
+
+}
+body{
+   font-family: var(--mainFont);
+   background-color: var(--backgroundColor); 
+   color: var(--textColor); 
+
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--secontFont);
+}
+a{
+    text-decoration:none ;
+}
+ul{
+    list-style-type: none;
+}
+.container{
+    width: calc(100% - 300px);
+    margin: auto;
+
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-between;
+    align-items: center;
+}
